@@ -18,7 +18,7 @@ export default function Profile() {
     const getData = async () => {
         const dataUser = await AsyncStorage.getItem("users_id");
         await axios
-            .get(`http://192.168.7.230:3000/users/${dataUser}`)
+            .get(`https://mamarecipe-backend-mobile.vercel.app/users/${dataUser}`)
             .then((response) => {
                 setData(response.data.data[0]);
             })

@@ -15,7 +15,7 @@ export default function BottomCarousel() {
 
     const getData = async () => {
         try {
-            const response = await axios.get('http://192.168.7.230:3000/recipes');
+            const response = await axios.get('https://mamarecipe-backend-mobile.vercel.app/recipes');
             setData(response.data.data);
         } catch (error) {
             console.error('Error fetching data:', error);

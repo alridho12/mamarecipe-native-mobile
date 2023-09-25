@@ -22,7 +22,7 @@ export default function MyRecipe() {
     const getData = async () => {
         const dataUser = await AsyncStorage.getItem('users_id')
         try {
-            const response = await axios.get(`http://192.168.7.230:3000/recipes/users/${dataUser}`);
+            const response = await axios.get(`https://mamarecipe-backend-mobile.vercel.app/recipes/users/${dataUser}`);
             setData(response.data.data);
         } catch (error) {
             console.log(error);

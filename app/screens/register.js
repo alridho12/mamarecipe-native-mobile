@@ -27,7 +27,7 @@ const Register = () => {
       password,
     };
     axios
-      .post('http://192.168.7.230:3000/users/register', userData)
+      .post('https://mamarecipe-backend-mobile.vercel.app/users/register', userData)
       .then(response => {
         alert("Register succesfull")
         navigation.navigate("LoginMain")

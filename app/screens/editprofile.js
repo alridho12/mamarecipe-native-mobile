@@ -25,7 +25,7 @@ export default function EditProfile() {
                 });
             }
 
-            const response = await axios.put(`http://192.168.7.230:3000/users/${id}`, formData,
+            const response = await axios.put(`https://mamarecipe-backend-mobile.vercel.app/users/${id}`, formData,
                 {
                     headers: {
                         "Content-Type": "multipart/form-data"

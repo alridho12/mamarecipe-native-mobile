@@ -45,7 +45,7 @@ const ModalUpdate = ({recipes_id,
                 })
             }
 
-            const response = await axios.put(`http://192.168.226.184:3000/recipes/${recipes_id}`, formData,
+            const response = await axios.put(`https://mamarecipe-backend-mobile.vercel.app/recipes/${recipes_id}`, formData,
                 {
                     headers: {
                         "Content-Type": "multipart/form-data"

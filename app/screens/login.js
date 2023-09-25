@@ -33,7 +33,7 @@ export default function Login() {
             password
         }
 
-        axios.post("http://192.168.7.230:3000/users/login", data).then((res) => {
+        axios.post("https://mamarecipe-backend-mobile.vercel.app/users/login", data).then((res) => {
             if (res.status === 201) {
                 AsyncStorage.setItem("token", res.data.data.token)
                 AsyncStorage.setItem("users_id", res.data.data.users_id);

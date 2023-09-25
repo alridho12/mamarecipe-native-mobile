@@ -9,50 +9,6 @@ import axios from 'axios';
 
 
 export default function AddRecipe() {
-    // const navigation = useNavigation();
-    // const dispatch = useDispatch();
-    // const [userLogin, setUserLogin] = useState();
-    // const [title, setTitle] = useState("");
-    // const [description, setDescription] = useState("");
-    // const [video, setVideo] = useState("");
-    // const [picture, setPicture] = useState("");
-    // const [userid, setUserId] = useState("");
-    // const [image, setImage] = useState(null);
-    // useEffect(() => {
-    //     handleGetToken();
-    // });
-    // const handleGetToken = async () => {
-    //     const dataToken = await AsyncStorage.getItem("token");
-    //     if (!dataToken) {
-    //         navigation.navigate("HomeMain");
-    //     }
-    //     const dataUser = await AsyncStorage.getItem("users_id");
-    //     setUserLogin(dataUser);
-    // };
-    // const createRecipe = () => {
-    //     dispatch(createRecipeActions(title, description, video, image, userLogin));
-    //     setTitle("");
-    //     setDescription("");
-    //     setVideo("");
-    //     setPicture("");
-    //     setUserId("");
-    // };
-    // const pickImage = async () => {
-    //     let result = await ImagePicker.launchImageLibraryAsync({
-    //         mediaTypes: ImagePicker.MediaTypeOptions.All,
-    //         allowsEditing: true,
-    //         aspect: [4, 3],
-    //         quality: 1,
-    //     });
-
-    //     console.log(result);
-
-    //     if (!result.canceled) {
-    //         setImage(result.assets[0].uri);
-    //     }
-    // };
-
-
 
     const navigation = useNavigation();
     const [title,setTitle] = useState("");
@@ -76,7 +32,7 @@ export default function AddRecipe() {
                 })
             }
 
-            const response = await axios.post('http://192.168.7.230:3000/recipes', formData,
+            const response = await axios.post('https://mamarecipe-backend-mobile.vercel.app/recipes', formData,
             {
                 headers: {
                     "Content-Type": "multipart/form-data"
@@ -144,16 +100,6 @@ export default function AddRecipe() {
                         value={recipe}
                         onChangeText={setRecipe}
                     />
-                    {/* <TextInput
-                        mode="outlined"
-                        label="Photo recipe"
-                        placeholder="input url photo recipe"
-                        placeholderTextColor='#8B8A8F'
-                        outlineColor='#fff'
-                        activeOutlineColor='#EFC81A'
-                        left={<TextInput.Icon icon="camera-outline"
-                            color={"#8B8A8F"} />}
-                    /> */}
                     <TextInput
                         mode="outlined"
                         label="Video recipe"

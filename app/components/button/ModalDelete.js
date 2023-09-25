@@ -9,7 +9,7 @@ const ModalDelete = ({recipes_id}) => {
     const navigation = useNavigation();
     const [modalVisible, setModalVisible2] = useState(false);
     const handleDelete = () => {
-        axios.delete(`http://192.168.226.184:3000/recipes/${recipes_id}`)
+        axios.delete(`https://mamarecipe-backend-mobile.vercel.app/recipes/${recipes_id}`)
             .then(() => {
                 alert("delete success")
                 navigation.navigate("Home")
