@@ -1,11 +1,11 @@
 <br />
 <p align="center">
   <div align="center">
-    <img height="150" src="https://cdn.discordapp.com/attachments/1118733891738554480/1153268376240656445/Screenshot_1-removebg-preview.png" alt="blanja" border="0"/>
+    <img height="150" src="https://cdn.discordapp.com/attachments/1103167854657929345/1149392352457269298/removebg-preview.png" alt="blanja" border="0"/>
   </div>
   <h3 align="center">Food Recipe</h3>
   <p align="center">
-    <a href="https://github.com/izaazwaskito/Blanja-BE"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/alridho12/mamarecipe-native-mobile"><strong>Explore the docs »</strong></a>
     <br />
   </p>
 </p>
@@ -46,13 +46,13 @@ This is an example of how to list things you need to use the software and how to
 - Clone This Front End Repo
 
 ```
-git clone https://github.com/izaazwaskito/FoodRecipe-FE
+git clone https://github.com/alridho12/mamarecipe-native-mobile
 ```
 
 - Go To Folder Repo
 
 ```
-cd FoodRecipe-FE
+cd mamarecipe-native-mobile
 ```
 
 - Install Module
@@ -79,8 +79,8 @@ REACT_APP_BACKEND = [BACKEND_URL]
 
 <table>
  <tr>
-    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269848772292648/Screenshot_3.png"  border="0" border="0" alt="1" /></td>
-    <td> <img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269848512233512/Screenshot_2.png" \ border="0"  border="0"  border="0"  alt="2" /></td>
+    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1155854636805267516/WhatsApp_Image_2023-09-19_at_06.56.53.jpeg"  border="0" border="0" alt="1" /></td>
+    <td> <img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1155854636499087360/WhatsApp_Image_2023-09-19_at_06.57.36.jpeg" \ border="0"  border="0"  border="0"  alt="2" /></td>
   </tr>
    <tr>
     <td>Register</td>
@@ -88,8 +88,8 @@ REACT_APP_BACKEND = [BACKEND_URL]
   </tr>
 
   <tr>
-    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269849309151253/Screenshot_5.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269849019748413/Screenshot_4.png"  border="0" border="0" alt="4" /></td>
+    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1155854635836375090/WhatsApp_Image_2023-09-19_at_06.58.07.jpeg"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1155854634930405467/WhatsApp_Image_2023-09-19_at_07.01.15.jpeg"  border="0" border="0" alt="4" /></td>
 
   </tr>
    <tr>
@@ -97,21 +97,13 @@ REACT_APP_BACKEND = [BACKEND_URL]
     <td>Create Recipe</td>
   </tr>
   <tr>
-    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269849585987655/Screenshot_6.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269849871187999/Screenshot_7.png"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1155854635265962014/WhatsApp_Image_2023-09-19_at_06.58.49.jpeg"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1155854635546976326/WhatsApp_Image_2023-09-19_at_06.59.59.jpeg"  border="0" border="0" alt="3" /> </td>
 
   </tr>
    <tr>
     <td>Profile</td>
     <td>Menu</td>
-  </tr>
-    <tr>
-    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269850185773126/Screenshot_8.png"  border="0" border="0" alt="3" /> </td>
-    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1118733891738554480/1154269850445811792/Screenshot_9.png"  border="0" border="0" alt="4" /></td>
-  </tr>
-   <tr>
-    <td>Detail Ingredients</td>
-    <td>Detail Video & Comment</td>
   </tr>
 </table>
 
@@ -127,8 +119,8 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Related Project
 
-:rocket: [`Backend FoodRecipe`](https://github.com/izaazwaskito/FoodRecipe-BE)
+:rocket: [`Backend FoodRecipe`](https://github.com/alridho12/mamarecipe-backend-mobile)
 
-:rocket: [`Frontend FoodRecipe`](https://github.com/izaazwaskito/FoodRecipe-FE)
+:rocket: [`Frontend FoodRecipe`](https://github.com/alridho12/mamarecipe-native-mobile)
 
-Project Link: [https://github.com/izaazwaskito/FoodRecipe-FE](https://github.com/izaazwaskito/FoodRecipe-FE)
+Project Link: [https://github.com/alridho12/mamarecipe-native-mobile](https://github.com/alridho12/mamarecipe-native-mobile)
