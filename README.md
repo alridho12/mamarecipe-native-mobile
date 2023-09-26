@@ -105,6 +105,16 @@ REACT_APP_BACKEND = [BACKEND_URL]
     <td>Profile</td>
     <td>Menu</td>
   </tr>
+
+   <tr>
+    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1156032810918891520/image.png?ex=65137ef4&is=65122d74&hm=7ae28d8f81f432c2dc79e6e4af249d175a6630b3b30197d389b4ab31449834ef&"  border="0" border="0" alt="3" /> </td>
+    <td><img width="350px" src="https://cdn.discordapp.com/attachments/1133070686869524531/1156032984269463682/image.png?ex=65137f1d&is=65122d9d&hm=31c3afe1253b7cb3c56090b9b5c7c8aff423566d72dd1c1d0ae448083f5d12c5&"  border="0" border="0" alt="3" /> </td>
+
+  </tr>
+   <tr>
+    <td>Saved Recipe</td>
+    <td>Liked Recipe</td>
+  </tr>
 </table>
 
 ## Contributing
