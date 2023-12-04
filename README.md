@@ -27,7 +27,7 @@
 
 ## About The Project
 
-Food Recipe, a practical recipe management website designed to help you organize and find your favorite recipes effortlessly. With Food Recipe, you can manage your recipe collection, add new recipes, and even create shopping lists to streamline your grocery store visits.
+Food Recipe, a practical recipe management application designed to help you organize and find your favorite recipes effortlessly. With Food Recipe, you can manage your recipe collection, add new recipes, and even create shopping lists to streamline your grocery store visits.
 
 <!-- GETTING STARTED -->
 
